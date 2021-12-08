@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Me</title>
+</head>
+<body>
+	<h1>My Contact Details</h1>
+	<p>My Fictional Address</p>
+	<p>6377287383</p>
+	<p>surs3034936@gmail.com</p>
+
+	<form action="mailto:surs3034936@gmail.com" method="post" enctype="text/plain">
+		<div>
+			<label>Your name:</label>
+			<input type="text" name="fname" placeholder="Enter your Name" maxlength="20">
+		</div>
+		<div>
+			<label>Your Email:</label>
+			<input type="email" name="yourEmail">
+
+		</div>
+		<div>
+			<label>Gender</label>
+			<select>
+				<option value="male">male</option>
+				<option value="female">female</option>
+				<option value="rather not to say">rather not to say</option>
+				<option value="others">others</option>
+			</select>
+		</div>
+		<div>
+			<label>Dob</label>
+			<input type="date" name="dob">
+		</div>
+		<div>
+			<label>Your Message:</label>
+			<textarea name="Message" rows="4" cols="20"></textarea>
+		</div>
+		<div>
+			<input type="submit" name="submit" value="Submit">
+		</div>
+		
+	</form>
+</body>
+</html>
