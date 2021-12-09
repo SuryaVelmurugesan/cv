@@ -1,0 +1,38 @@
+body {
+	background-color: #eaeaea;
+	}
+
+hr {
+	background-color: #eaeaea;
+	border-style: none;
+	border-top-style: dotted;
+	height: 0px;
+	border-width: 2px;
+	border-color: black;
+	width: 10%;
+
+	}
+.box {
+ 	background-color: rebeccapurple;
+  	border-radius: 10px;
+  	width: 100px;
+ 	height: 100px;
+  	animation-name: slidein;
+  	animation-duration: 1s;
+	}
+
+@keyframes slidein {
+  	from {
+    	transform: translateX(0%);
+  		}
+  	to {
+    	transform: translateX(100%);
+  		}
+	}
+h1 {
+	color: #66bfbf;
+}
+
+h2 {
+	color: #66bfbf;
+}
