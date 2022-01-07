@@ -1,5 +1,5 @@
 body {
-	background-color: #eaeaea;
+	background-color: #7c99ac;
 	}
 
 hr {
@@ -41,6 +41,18 @@ h1 {
 
 h2 {
 	color: #66bfbf;
+}
+p {
+	font-family: Courier New;
+	color: darkcyan;
+	
+}
+
+
+div {
+	background-color: #DADDFC;
+	text-align: center;
+
 }
 img {
 	border-radius: 50%;
